@@ -1,0 +1,27 @@
+<div class="main-content margin-btm-3">
+    <div fxLayout="row" fxLayoutAlign="space-between center" class="breadcrumb-block">
+        <ul class="breadcrumb">
+            <li><a routerLink="" class="heading-color">Technology</a></li>
+            <li>
+                <a [routerLink]="['/questions', routeVal.tech ]" class="heading-color">{{ currentTech }}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="list-style">
+        <ul>
+            <li ng *ngFor="let ques of questionCollection; let i = index">
+                <div class="question-container ">
+                    <span class="display-inline">{{ i + 1 }}. </span>
+                    <p class="display-inline">{{ ques.name }}</p>
+                    <input type="hidden" name="answer" value="{{ques.correctAnswerId}}">
+                    <div *ngFor="let option of ques.options">
+                        <input type="radio" name="options-{{ques.id}}" [(ngModel)]="ques.answer" value="{{option.id}}">
+                        {{ option.name }}
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>  
+    <button class="pull-right margin-btm-3 finish" mat-raised-button color="primary" tabindex="-1" type="submit"
+        (click)="finish()"> Finish </button>
+</div>

@@ -1,0 +1,30 @@
+header {
+  height: 60px;
+  background-color: #003e52;
+
+  p {
+    margin: 0px;
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    padding: 17px;
+  }
+}
+
+ul.breadcrumb {
+  padding: 0 !important;
+  list-style: none;
+  background-color: transparent;
+  font-size: 17px;
+
+  li {
+    display: inline;
+  }
+}
+
+ul.breadcrumb li + li:before {
+  color: #007669;
+  content: "/\00a0";
+  font-size: 30px;
+  padding: 0 5px;
+}

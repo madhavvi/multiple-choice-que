@@ -1,0 +1,68 @@
+$text-color: #007669;
+$ts1: 15px;
+$fw6: 600;
+$text-color2: #003e52;
+
+.result-set {
+  max-width: 550px;
+}
+
+.attempt {
+  margin-bottom: 15px;
+}
+
+.answer-label {
+  font-size: $ts1;
+  font-weight: $fw6;
+  color: $text-color;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.result-card {
+  width: auto;
+  float: left;
+}
+
+.count-label {
+  text-align: center;
+  font-size: 25px;
+  color: $text-color2;
+  font-weight: $fw6;
+}
+
+.breadcrumb-block {
+  margin-bottom: 30px;
+}
+
+ul.breadcrumb {
+  padding: 0 !important;
+  list-style: none;
+  background-color: transparent;
+  font-size: 17px;
+
+  li {
+    display: inline;
+  }
+}
+
+ul.breadcrumb li + li:before {
+  color: $text-color;
+  content: "/\00a0";
+  font-size: 20px;
+  padding: 0 5px 0 8px;
+}
+
+.heading-color {
+  color: $text-color;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+mat-card {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+div.mat-card-header-text {
+  margin: 0 !important;
+}

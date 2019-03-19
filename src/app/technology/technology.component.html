@@ -1,0 +1,24 @@
+<div class="main-content">
+  <div fxLayout="row" fxLayoutAlign="space-between center" class="breadcrumb-block">
+    <ul class="breadcrumb">
+      <li><a routerLink="" class="heading-color">Technology</a></li>
+    </ul>
+  </div>
+  <div class="page-wrapper">
+    <div class="mat-elevation-z3 list-style" *ngIf="technologies && !loading">
+      <ul>
+        <li *ngFor="let tech of technologies">
+          <a [routerLink]="['/questions', tech.id]">{{ tech.name }}
+            <mat-icon matTooltip="Go to" matTooltipPosition="above" class="material-icons">trending_up</mat-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- <mat-card *ngIf="!technologies && loading" class="text-center">
+      <mat-spinner class="mat-progress-spinner"></mat-spinner>
+    </mat-card> -->
+    <!-- <mat-card *ngIf="dataNotAvailable && !loading" class="text-center">
+      <span> No data available. </span>
+    </mat-card> -->
+  </div>
+</div>

@@ -1,0 +1,609 @@
+{
+    "project": [
+        {
+            "id": "t1",
+            "name": "HTML",
+            "questions": [
+                {
+                    "id": "q1",
+                    "name": "Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "class"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "id"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "article"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "html"
+                        }
+                    ]
+                },
+                {
+                    "id": "q2",
+                    "name": "Which attribute specifies an inline style associated with an element, which determines the rendering of the affected element.",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "dir"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "style"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "class"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "article"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "name": "Correct HTML tag for the largest heading is",
+                    "correctAnswerId": "o4",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "<head>"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "<h6>"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "<heading>"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "<h1>"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "name": "Which attribute sets the text direction as related to the lang attribute.",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "lang"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "sub"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "dir"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "ds"
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "name": "Which of the following tag is used to mark a begining of paragraph",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "<TD>"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "<br>"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "<P>"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "<TR>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t2",
+            "name": "CSS",
+            "questions": [
+                {
+                    "id": "q1",
+                    "name": " Which of the following selector selects the elements that are currently enabled?",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": ":element"
+                        },
+                        {
+                            "id": "o2",
+                            "name": ":empty"
+                        },
+                        {
+                            "id": "o3",
+                            "name": ":enabled"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "none of the mentioned"
+                        }
+                    ]
+                },
+                {
+                    "id": "q2",
+                    "name": "Which of the following selector selects the element that is the first child of its parent that is of its type?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": ":first-of-type"
+                        },
+                        {
+                            "id": "o2",
+                            "name": ":last-child"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "::first-line"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "::first-letter"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "name": "Which of the following selector applies styles to elements that are valid per HTML5 validations set either with the pattern or type attributes?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": ":valid"
+                        },
+                        {
+                            "id": "o2",
+                            "name": ":required"
+                        },
+                        {
+                            "id": "o3",
+                            "name": ":optional"
+                        },
+                        {
+                            "id": "o4",
+                            "name": ":invalid"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "name": "Which of the following selector selects the element that is the target of a referring URI?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": ":target"
+                        },
+                        {
+                            "id": "o2",
+                            "name": ":selection"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "::selection"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "URI"
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "name": "Which of the following selector selects the elements that are checked?",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "E ~ F"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "::after"
+                        },
+                        {
+                            "id": "o3",
+                            "name": ":checked"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "None of these"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t3",
+            "name": "Javascript",
+            "questions": [
+                {
+                    "id": "q1",
+                    "name": "Which of the following is a valid type of function javascript supports?",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "named function"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "anonymous function"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "Both of the above"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "none of the mentioned"
+                        }
+                    ]
+                },
+                {
+                    "id": "q2",
+                    "name": "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "last()"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "put()"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "push()"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "None of the above"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "name": "Which of the following function of Number object formats a number with a specific number of digits to the right of the decimal?",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "toExponential()"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "toFixed()"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "toPrecision()"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "toLocaleString()"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "name": "Which of the following function of String object returns the characters in a string beginning at the specified location through the specified number of characters?",
+                    "correctAnswerId": "o3",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "slice()"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "split()"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "substr()"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "search()"
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "name": "Which of the following function of Array object removes the last element from an array and returns that element?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "pop()"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "push()"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "join()"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "map()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t4",
+            "name": "Angular",
+            "questions": [
+                {
+                    "id": "q1",
+                    "name": "Which file is responsible for startup of angular 2 project?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "main.ts"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "index.js"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "app.ts"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "angular.cli.json"
+                        }
+                    ]
+                },
+                {
+                    "id": "q2",
+                    "name": "What is the decorator used for configuring your module class?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "@NgModule"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "@NgApp"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "@NgAngular"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "@NgConfigure"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "name": "Interpolation in angular 2 is done using",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "{{}}"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "{{|var}}"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "{{{}}}"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "!!!!"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "name": "AngularJS 2.0 is a ?",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "library"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "Framework"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "Operating System"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "programming Language"
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "name": "Which of the following filter is used to convert input to all uppercase?",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "upper"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "uppercase"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "toUpper"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "none of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t5",
+            "name": "Node Js",
+            "questions": [
+                {
+                    "id": "q1",
+                    "name": "All APIs of Node.JS are?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "Asynchronous"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "Synchronous"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "Both of the above."
+                        },
+                        {
+                            "id": "o4",
+                            "name": "none of the above"
+                        }
+                    ]
+                },
+                {
+                    "id": "q2",
+                    "name": "Which of the following code gets length of a buffer buf?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "buf.length"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "buf.size"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "buf.length()"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "buf.size()"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "name": "Which of the following is true about clearTimeout(t) global function?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "The clearTimeout( t ) global function is used to stop a timer that was previously created with setTimeout()."
+                        },
+                        {
+                            "id": "o2",
+                            "name": "The clearTimeout( t ) function returns an opaque value that represents the timer which can be used to clear the timer."
+                        },
+                        {
+                            "id": "o3",
+                            "name": "Both of the above"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "None of the above"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "name": "Which of the following is the correct way to get a normalized path?",
+                    "correctAnswerId": "o1",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "path.normalize('/test/test1//2slashes/1slash/tab/..')"
+                        },
+                        {
+                            "id": "o2",
+                            "name": "fs.normalize('/test/test1//2slashes/1slash/tab/..')"
+                        },
+                        {
+                            "id": "o3",
+                            "name": "os.normalize('/test/test1//2slashes/1slash/tab/..')"
+                        },
+                        {
+                            "id": "o4",
+                            "name": "None of the above."
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "name": "What is Express?",
+                    "correctAnswerId": "o2",
+                    "options": [
+                        {
+                            "id": "o1",
+                            "name": "Express is a application framework that provides a robust set of features to develop desktop based applications."
+                        },
+                        {
+                            "id": "o2",
+                            "name": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications."
+                        },
+                        {
+                            "id": "o3",
+                            "name": "Both of the above."
+                        },
+                        {
+                            "id": "o4",
+                            "name": "none of the above"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

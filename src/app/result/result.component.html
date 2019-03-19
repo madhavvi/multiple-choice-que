@@ -1,0 +1,31 @@
+<div class="main-content">
+  <div fxLayout="row" fxLayoutAlign="space-between center" class="breadcrumb-block">
+    <ul class="breadcrumb">
+      <li><a routerLink="" class="heading-color">Technology</a></li>
+      <li>
+        <a [routerLink]="['/questions', currentTechId]" class="heading-color">{{ currentTech }}</a>
+      </li>
+      <li><a class="heading-color">Result</a></li>
+    </ul>
+  </div>
+
+  <mat-card class="result-card">
+    <mat-card-header class="attempt" fxLayout fxLayout.xs="column wrap" fxLayoutGap="30px">
+      <mat-card-title class="heading-color">Attempted Questions: {{ totalAttempt }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="result-set" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+        <div fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxFlex="100%">
+          <div fxFlex="50%">
+            <div class="answer-label">Correct</div>
+            <div class="count-label"> {{ correctCollection }} </div>
+          </div>
+          <div fxFlex="50%">
+            <div class="answer-label">Incorrect</div>
+            <div class="count-label">{{ inCorrectCollection }} </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
